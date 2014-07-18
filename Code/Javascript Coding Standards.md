@@ -113,7 +113,7 @@ Make sure you use enumeration only on `Objects`, not on `Arrays`.
 in, you end up with an inconsistent rule for conditional `break` statements,
 as in the `2` case.
 
-If you insist on having a "fall through" case that does not end with `brea`k,
+If you insist on having a "fall through" case that does not end with `break`,
 make it clear in a comment that you wrote this intentionally. For instance:
 
 ```javascript
