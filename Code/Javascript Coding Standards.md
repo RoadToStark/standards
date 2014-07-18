@@ -54,7 +54,8 @@ rules.
 **Examples** 
 
  - if/else
-```
+
+```javascript
   if (x > 3) {
     // ...
   } else if (x === null) {
@@ -71,7 +72,7 @@ spaces.
 
 - for (iteration)
 
-```
+```javascript
   for (var ii = 0; ii < 10; ii++) {
     // ...
   }
@@ -82,7 +83,7 @@ visually and react better to "Find Next..." in editors.
 
 - for (enumeration)
 
-```
+```javascript
   for (var k in obj) {
     // ...
   }
@@ -92,7 +93,7 @@ Make sure you use enumeration only on `Objects`, not on `Arrays`.
 
 - switch
 
-```
+```javascript
   switch (x) {
     case 1:
       // ...
@@ -115,7 +116,7 @@ as in the `2` case.
 If you insist on having a "fall through" case that does not end with `brea`k,
 make it clear in a comment that you wrote this intentionally. For instance:
 
-```
+```javascript
   switch (x) {
     case 1:
       // ...
