@@ -16,7 +16,7 @@ basically copy-pasted them. If you are already familiar with the Facebook
 guidelines, you probably don't need to read this super thoroughly.
 
 
-**Spaces, Linebreaks and Indentation **
+**Spaces, Linebreaks and Indentation**
 
   - Use two spaces for indentation. Don't use tab literal characters.
   - Use Unix linebreaks ("`\n`"), not MSDOS ("`\r\n`") or OS9 ("`\r`").
@@ -28,7 +28,7 @@ guidelines, you probably don't need to read this super thoroughly.
   - Parentheses should hug their contents.
   - Generally, prefer to wrap code at 80 columns.
 
-**Case and Capitalization **
+**Case and Capitalization**
 
   - Name variables and functions using `lowercase_with_underscores`.
   - Name classes using `UpperCamelCase`.
@@ -37,12 +37,12 @@ guidelines, you probably don't need to read this super thoroughly.
   - Name constants using `UPPERCASE`.
   - Write `true`, `false` and `null` in lowercase.
 
-**Comments **
+**Comments**
 
   - Do not use "#" (shell-style) comments.
   - Prefer "//" comments inside function and method bodies.
 
-**PHP Language Style **
+**PHP Language Style**
 
   - Use "<?php", not the "<?" short form. Omit the closing "?>" tag.
   - Prefer casts like `(string)` to casting functions like `strval()`.
@@ -52,7 +52,7 @@ guidelines, you probably don't need to read this super thoroughly.
     and "<>".
   - Always put braces around conditional and loop blocks.
 
-**PHP Language Features **
+**PHP Language Features**
 
   - Use PHP as a programming language, not a templating language.
   - Avoid globals.
@@ -65,7 +65,7 @@ guidelines, you probably don't need to read this super thoroughly.
   - Use exceptions for error conditions.
   - Use type hints, use `assert_instances_of()` for arrays holding objects.
 
-**Examples **
+**Examples**
 
 - if/else:
 
