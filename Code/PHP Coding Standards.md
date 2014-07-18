@@ -34,25 +34,25 @@ These guidelines are essentially identical to the Facebook guidelines. If you ar
 
 **Comments**
 
-  - Do not use "#" (shell-style) comments.
-  - Prefer "//" comments inside function and method bodies.
+  - Do not use `#` (shell-style) comments.
+  - Prefer `//` comments inside function and method bodies.
 
 **PHP Language Style**
 
-  - Use "<?php", not the "<?" short form. Omit the closing "?>" tag.
+  - Use `<?php`, not the `<?` short form. Omit the closing `?>` tag.
   - Prefer casts like `(string)` to casting functions like `strval()`.
   - Prefer type checks like `$v === null` to type functions like
     `is_null()`.
-  - Avoid all crazy alternate forms of language constructs like "endwhile"
-    and "<>".
+  - Avoid all crazy alternate forms of language constructs like `endwhile`
+    and `<>`.
   - Always put braces around conditional and loop blocks.
 
 **PHP Language Features**
 
   - Use PHP as a programming language, not a templating language.
-  - Avoid globals.
-  - Avoid extract().
-  - Avoid eval().
+  - Avoid `globals`.
+  - Avoid `extract()`.
+  - Avoid `eval()`.
   - Avoid variable variables.
   - Prefer classes over functions.
   - Prefer class constants over defines.
