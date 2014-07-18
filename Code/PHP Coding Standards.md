@@ -7,14 +7,9 @@ projects (like Arcanist and libphutil).
 
 **Overview**
 
-This document outlines technical and style guidelines which are followed in
-libphutil. Contributors should also follow these guidelines. Many of these
-guidelines are automatically enforced by lint.
+This document outlines technical and style guidelines which are followed in many projects. Contributors should follow these guidelines.
 
-These guidelines are essentially identical to the Facebook guidelines, since I
-basically copy-pasted them. If you are already familiar with the Facebook
-guidelines, you probably don't need to read this super thoroughly.
-
+These guidelines are essentially identical to the Facebook guidelines. If you are already familiar with the Facebook guidelines, you can probably get away with skimming this document.
 
 **Spaces, Linebreaks and Indentation**
 
