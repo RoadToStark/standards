@@ -42,7 +42,7 @@ rules.
 
 **Comments** 
 
- - Strongly prefer ##//## comments for making comments inside the bodies of
+ - Strongly prefer `//` comments for making comments inside the bodies of
     functions and methods (this lets someone easily comment out a block of code
     while debugging later).
 
