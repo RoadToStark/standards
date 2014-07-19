@@ -8,9 +8,6 @@ This document describes Javascript coding standards for Phabricator and Javelin.
 This document outlines technical and style guidelines which are followed in
 many projects. Contributors should follow these guidelines. 
 
-These guidelines are essentially identical to the Facebook guidelines. If you are already familiar with the Facebook
-guidelines, you can probably get away with skimming this document.
-
 
 **Spaces, Linebreaks and Indentation** 
 
