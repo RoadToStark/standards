@@ -174,13 +174,13 @@ if (password.length >= 4 && /^(?=.*\d).{4,}$/.test(password)) {
 }
 ```
 
-## Write small functions
+**Write small functions**
 
 Keep your functions short. A good function fits on a slide that the people in
 the last row of a big room can comfortably read. So don't count on them having
 perfect vision and limit yourself to ~15 lines of code per function.
 
-## Return early from functions
+**Return early from functions**
 
 To avoid deep nesting of if-statements, always return a function's value as early
 as possible.
@@ -227,7 +227,7 @@ function isPercentage(val) {
 }
 ```
 
-## Name your closures
+**Name your closures**
 
 Feel free to give your closures a name. It shows that you care about them, and
 will produce better stack traces, heap and cpu profiles.
@@ -248,7 +248,7 @@ req.on('end', function() {
 });
 ```
 
-## No nested closures
+**No nested closures**
 
 Use closures, but don't nest them. Otherwise your code will become a mess.
 
