@@ -1,7 +1,6 @@
 Javascript Coding Standards
 ---------------------------
 
-This document describes Javascript coding standards for Phabricator and Javelin.
 
 **Overview** 
 
