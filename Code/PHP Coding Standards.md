@@ -13,7 +13,7 @@ These guidelines are essentially identical to the Facebook guidelines. If you ar
 
 **Spaces, Linebreaks and Indentation**
 
-  - Use two spaces for indentation. Don't use tab literal characters.
+  - Use 4 spaces for indentation. Don't use tab literal characters.
   - Use Unix linebreaks ("`\n`"), not MSDOS ("`\r\n`") or OS9 ("`\r`").
   - Use K&R style braces and spacing.
   - Put a space after control keywords like `if` and `for`.
