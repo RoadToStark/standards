@@ -125,7 +125,6 @@ diffs which add elements to the array affect only one line.
 - operators:
 ```php
   $a + $b;                // Put spaces around operators.
-  $omg.$lol;              // Exception: no spaces around string concatenation.
   $arr[] = $element;      // Couple [] with the array when appending.
   $obj = new Thing();     // Always use parens.
 ```
