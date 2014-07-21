@@ -10,7 +10,7 @@ many projects. Contributors should follow these guidelines.
 
 **Spaces, Linebreaks and Indentation** 
 
-  - Use two spaces for indentation. Don't use literal tab characters.
+  - Use 4 spaces for indentation. 
   - Use Unix linebreaks ("`\n`"), not MSDOS ("`\r\n`") or OS9 ("`\r`").
   - Use K&R style braces and spacing.
   - Put a space after control keywords like `if` and `for`.
